@@ -15,7 +15,9 @@ export default function Navbar() {
         <Link href="/dashboard" className="text-slate-400 hover:text-white transition-colors">
           Dashboard
         </Link>
-
+        <Link href="/posts" className="text-slate-400 hover:text-white transition-colors">
+          Posts
+        </Link>
         <Link href="/login" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors">
           Login
         </Link>
